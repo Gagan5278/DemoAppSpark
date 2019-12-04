@@ -49,7 +49,6 @@ class PersonListViewController: UIViewController {
     //MARK:- loadPersons {
     private func loadPersons() {
         personViewModel.getWiAllPersons()
-        print(Thread.current.i)
     }
     
     // MARK: - Navigation
