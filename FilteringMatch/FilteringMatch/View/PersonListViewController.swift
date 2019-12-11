@@ -12,6 +12,8 @@ class PersonListViewController: UIViewController {
     //IBOutlets
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var personTableView: UITableView!
+    //cell identifier
+    let cellIdentifier = "personCell"
     //View Model Object
     let personViewModel = PersonViewModel()
     //MARK:- View Controller Life Cycle
@@ -65,6 +67,10 @@ class PersonListViewController: UIViewController {
     @IBAction func fetchAllUserListOnRightBarButtonClick(_ sender: Any) {
         loadPersons()
     }
+    //MARK:- Filter button action
+    @IBAction func filterButtonClicked(_ sender: Any) {
+        self.shouldPerformSegue(withIdentifier: "showFilter", sender: self)
+    }
     
 }
 
@@ -80,7 +86,7 @@ extension PersonListViewController : UITableViewDataSource
         
         switch personViewModel.personBind.value[indexPath.row] {
         case .normal(let viewModel):
-            guard let cell = tableView.dequeueReusableCell(withIdentifier: "personCell") else {
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier) else {
                 return UITableViewCell()
             }
             cell.textLabel?.text = viewModel.personName

@@ -67,7 +67,7 @@ class FilterTableViewController: UITableViewController {
     }
     
     //MARK:- Get Bool value for selected cell
-    private func getBoolFor(indexPath: IndexPath) -> Bool {
+     func getBoolFor(indexPath: IndexPath) -> Bool {
         return  self.tableView.cellForRow(at: indexPath)?.accessoryType == UITableViewCell.AccessoryType.none ? false : true
     }
     

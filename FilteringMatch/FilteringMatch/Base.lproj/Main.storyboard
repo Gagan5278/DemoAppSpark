@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sVh-tl-ZYY">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -69,7 +69,7 @@
                         <rightBarButtonItems>
                             <barButtonItem systemItem="search" id="0rf-zb-dlg">
                                 <connections>
-                                    <segue destination="zP8-2v-pjV" kind="show" id="Eqx-Us-w4y"/>
+                                    <action selector="filterButtonClicked:" destination="BYZ-38-t0r" id="1hk-5q-vfg"/>
                                 </connections>
                             </barButtonItem>
                             <barButtonItem title="Item" image="gobackward.minus" catalog="system" id="VUc-d7-YxF">
@@ -82,6 +82,7 @@
                     <connections>
                         <outlet property="activityIndicator" destination="laJ-L3-7iq" id="Vue-Zq-uwz"/>
                         <outlet property="personTableView" destination="thR-5D-aOK" id="qWL-Um-sop"/>
+                        <segue destination="zP8-2v-pjV" kind="show" identifier="showFilter" id="jgR-cx-6gg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -91,7 +92,7 @@
         <!--Filter-->
         <scene sceneID="YOr-3X-3aU">
             <objects>
-                <tableViewController id="zP8-2v-pjV" customClass="FilterTableViewController" customModule="FilteringMatch" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="FilterTableView" id="zP8-2v-pjV" customClass="FilterTableViewController" customModule="FilteringMatch" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="70" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="mcD-1I-kVp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

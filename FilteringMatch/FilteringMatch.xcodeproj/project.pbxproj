@@ -24,7 +24,9 @@
 		213C873D237751890020F476 /* FilteringMatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213C873C237751890020F476 /* FilteringMatchUITests.swift */; };
 		213C874B237752B80020F476 /* matches.json in Resources */ = {isa = PBXBuildFile; fileRef = 213C874A237752B80020F476 /* matches.json */; };
 		216A13B4237DBCF000A148FA /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216A13B3237DBCF000A148FA /* Helper.swift */; };
-		216A13B6237DBD3A00A148FA /* PersonListViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216A13B5237DBD3A00A148FA /* PersonListViewControllerTest.swift */; };
+		217CA21523A0DD4100B1448A /* PersonListViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217CA21423A0DD4100B1448A /* PersonListViewControllerTest.swift */; };
+		217CA21723A0E1B700B1448A /* FilterTableViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217CA21623A0E1B700B1448A /* FilterTableViewControllerTest.swift */; };
+		217CA21923A0E2FE00B1448A /* FakeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217CA21823A0E2FE00B1448A /* FakeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +70,9 @@
 		213C873E237751890020F476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		213C874A237752B80020F476 /* matches.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = matches.json; sourceTree = "<group>"; };
 		216A13B3237DBCF000A148FA /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
-		216A13B5237DBD3A00A148FA /* PersonListViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListViewControllerTest.swift; sourceTree = "<group>"; };
+		217CA21423A0DD4100B1448A /* PersonListViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListViewControllerTest.swift; sourceTree = "<group>"; };
+		217CA21623A0E1B700B1448A /* FilterTableViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTableViewControllerTest.swift; sourceTree = "<group>"; };
+		217CA21823A0E2FE00B1448A /* FakeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,7 +196,9 @@
 			children = (
 				213C8731237751890020F476 /* FilteringMatchTests.swift */,
 				213C8733237751890020F476 /* Info.plist */,
-				216A13B5237DBD3A00A148FA /* PersonListViewControllerTest.swift */,
+				217CA21423A0DD4100B1448A /* PersonListViewControllerTest.swift */,
+				217CA21623A0E1B700B1448A /* FilterTableViewControllerTest.swift */,
+				217CA21823A0E2FE00B1448A /* FakeModel.swift */,
 			);
 			path = FilteringMatchTests;
 			sourceTree = "<group>";
@@ -356,8 +362,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				217CA21723A0E1B700B1448A /* FilterTableViewControllerTest.swift in Sources */,
 				213C8732237751890020F476 /* FilteringMatchTests.swift in Sources */,
-				216A13B6237DBD3A00A148FA /* PersonListViewControllerTest.swift in Sources */,
+				217CA21923A0E2FE00B1448A /* FakeModel.swift in Sources */,
+				217CA21523A0DD4100B1448A /* PersonListViewControllerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
