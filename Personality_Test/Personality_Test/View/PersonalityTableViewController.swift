@@ -8,8 +8,9 @@
 
 import UIKit
 
-class PersonalityViewControllerTableViewController: UITableViewController {
-
+class PersonalityTableViewController: UITableViewController {
+    //cell identifier
+    let cellIdentifier = "reuseIdentifier"
     var personalityViewModel = PersonalityViewModel()
     //MARK:- ViewController life cycle
     override func viewDidLoad() {
@@ -33,7 +34,7 @@ class PersonalityViewControllerTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath) as? PersonalityTableViewCell else {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? PersonalityTableViewCell else {
             return UITableViewCell()
         }
         cell.questionModel = personalityViewModel.getQuestionsModel(at: indexPath)

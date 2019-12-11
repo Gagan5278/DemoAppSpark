@@ -24,10 +24,10 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="88.392857142857139"/>
         </scene>
-        <!--Personality View Controller Table View Controller-->
+        <!--Personality Test-->
         <scene sceneID="cl4-HP-X70">
             <objects>
-                <tableViewController id="dek-2x-RDI" customClass="PersonalityViewControllerTableViewController" customModule="Personality_Test" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="PersonalityView" id="dek-2x-RDI" customClass="PersonalityTableViewController" customModule="Personality_Test" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="aLf-UY-nRL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -89,7 +89,7 @@
                             <outlet property="delegate" destination="dek-2x-RDI" id="dcZ-Jf-siV"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="r1v-EA-L0N"/>
+                    <navigationItem key="navigationItem" title="Personality Test" id="r1v-EA-L0N"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y2g-lG-wY6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

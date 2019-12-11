@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		216108862397AE1800BAFAB4 /* PersonalityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216108852397AE1800BAFAB4 /* PersonalityViewModel.swift */; };
-		2161088B2397B3CD00BAFAB4 /* PersonalityViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2161088A2397B3CD00BAFAB4 /* PersonalityViewControllerTableViewController.swift */; };
+		2161088B2397B3CD00BAFAB4 /* PersonalityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2161088A2397B3CD00BAFAB4 /* PersonalityTableViewController.swift */; };
 		2161088E2397CBDC00BAFAB4 /* PersonalityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2161088D2397CBDC00BAFAB4 /* PersonalityTableViewCell.swift */; };
 		216108902397D20A00BAFAB4 /* Extension+UIResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2161088F2397D20A00BAFAB4 /* Extension+UIResponder.swift */; };
 		21F14417239699F30062F723 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F14416239699F30062F723 /* AppDelegate.swift */; };
@@ -20,6 +20,7 @@
 		21F1443A23969A8F0062F723 /* Extension+Decodable .swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F1443923969A8F0062F723 /* Extension+Decodable .swift */; };
 		21F1443D23969AD20062F723 /* personality_test.json in Resources */ = {isa = PBXBuildFile; fileRef = 21F1443C23969AD20062F723 /* personality_test.json */; };
 		21F1444023969AFC0062F723 /* PersonalityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F1443F23969AFC0062F723 /* PersonalityModel.swift */; };
+		21FC932123A102CC009A677C /* FakeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FC932023A102CC009A677C /* FakeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +35,7 @@
 
 /* Begin PBXFileReference section */
 		216108852397AE1800BAFAB4 /* PersonalityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityViewModel.swift; sourceTree = "<group>"; };
-		2161088A2397B3CD00BAFAB4 /* PersonalityViewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityViewControllerTableViewController.swift; sourceTree = "<group>"; };
+		2161088A2397B3CD00BAFAB4 /* PersonalityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityTableViewController.swift; sourceTree = "<group>"; };
 		2161088D2397CBDC00BAFAB4 /* PersonalityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityTableViewCell.swift; sourceTree = "<group>"; };
 		2161088F2397D20A00BAFAB4 /* Extension+UIResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIResponder.swift"; sourceTree = "<group>"; };
 		21F14413239699F30062F723 /* Personality_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Personality_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +51,7 @@
 		21F1443923969A8F0062F723 /* Extension+Decodable .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Decodable .swift"; sourceTree = "<group>"; };
 		21F1443C23969AD20062F723 /* personality_test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = personality_test.json; sourceTree = "<group>"; };
 		21F1443F23969AFC0062F723 /* PersonalityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityModel.swift; sourceTree = "<group>"; };
+		21FC932023A102CC009A677C /* FakeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				2161088D2397CBDC00BAFAB4 /* PersonalityTableViewCell.swift */,
+				2161088A2397B3CD00BAFAB4 /* PersonalityTableViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -107,18 +110,17 @@
 		21F14415239699F30062F723 /* Personality_Test */ = {
 			isa = PBXGroup;
 			children = (
-				2161088C2397CBC700BAFAB4 /* View */,
-				216108842397ADFC00BAFAB4 /* ViewModel */,
-				21F1443E23969AED0062F723 /* Model */,
 				21F1443B23969AB00062F723 /* JSONData */,
 				21F1443823969A820062F723 /* Extension */,
+				21F1443E23969AED0062F723 /* Model */,
+				216108842397ADFC00BAFAB4 /* ViewModel */,
+				2161088C2397CBC700BAFAB4 /* View */,
 				21F14416239699F30062F723 /* AppDelegate.swift */,
 				21F14418239699F30062F723 /* SceneDelegate.swift */,
 				21F1441C239699F30062F723 /* Main.storyboard */,
 				21F1441F239699F50062F723 /* Assets.xcassets */,
 				21F14421239699F50062F723 /* LaunchScreen.storyboard */,
 				21F14424239699F50062F723 /* Info.plist */,
-				2161088A2397B3CD00BAFAB4 /* PersonalityViewControllerTableViewController.swift */,
 			);
 			path = Personality_Test;
 			sourceTree = "<group>";
@@ -128,6 +130,7 @@
 			children = (
 				21F1442D239699F50062F723 /* Personality_TestTests.swift */,
 				21F1442F239699F50062F723 /* Info.plist */,
+				21FC932023A102CC009A677C /* FakeModel.swift */,
 			);
 			path = Personality_TestTests;
 			sourceTree = "<group>";
@@ -262,7 +265,7 @@
 				21F1443A23969A8F0062F723 /* Extension+Decodable .swift in Sources */,
 				216108862397AE1800BAFAB4 /* PersonalityViewModel.swift in Sources */,
 				21F14417239699F30062F723 /* AppDelegate.swift in Sources */,
-				2161088B2397B3CD00BAFAB4 /* PersonalityViewControllerTableViewController.swift in Sources */,
+				2161088B2397B3CD00BAFAB4 /* PersonalityTableViewController.swift in Sources */,
 				21F14419239699F30062F723 /* SceneDelegate.swift in Sources */,
 				216108902397D20A00BAFAB4 /* Extension+UIResponder.swift in Sources */,
 				2161088E2397CBDC00BAFAB4 /* PersonalityTableViewCell.swift in Sources */,
@@ -274,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21FC932123A102CC009A677C /* FakeModel.swift in Sources */,
 				21F1442E239699F50062F723 /* Personality_TestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
