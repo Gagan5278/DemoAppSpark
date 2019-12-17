@@ -12,7 +12,7 @@
 		218E6A6823A8BBB7009E1DE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 218E6A6623A8BBB7009E1DE1 /* Main.storyboard */; };
 		218E6A6A23A8BBB9009E1DE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 218E6A6923A8BBB9009E1DE1 /* Assets.xcassets */; };
 		218E6A6D23A8BBB9009E1DE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 218E6A6B23A8BBB9009E1DE1 /* LaunchScreen.storyboard */; };
-		218E6A7823A8BBBA009E1DE1 /* ProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218E6A7723A8BBBA009E1DE1 /* ProfileTests.swift */; };
+		218E6A7823A8BBBA009E1DE1 /* ProfilePresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218E6A7723A8BBBA009E1DE1 /* ProfilePresenterTest.swift */; };
 		218E6A8423A8BBFB009E1DE1 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218E6A8323A8BBFB009E1DE1 /* ProfileModel.swift */; };
 		218E6A8823A8BD81009E1DE1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218E6A8723A8BD81009E1DE1 /* Constants.swift */; };
 		218E6A8B23A8BDC8009E1DE1 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218E6A8A23A8BDC8009E1DE1 /* APIRouter.swift */; };
@@ -31,6 +31,10 @@
 		218E6AB223A8CBA0009E1DE1 /* UIScrollView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218E6AB123A8CBA0009E1DE1 /* UIScrollView+extension.swift */; };
 		218E6AB423A8CD43009E1DE1 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218E6AB323A8CD43009E1DE1 /* UITextField+Extension.swift */; };
 		218E6AB723A8D838009E1DE1 /* DataPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218E6AB623A8D838009E1DE1 /* DataPickerView.swift */; };
+		218E6AB923A8E346009E1DE1 /* CustomAlertTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218E6AB823A8E346009E1DE1 /* CustomAlertTest.swift */; };
+		218E6ABB23A8E389009E1DE1 /* NetworkCommunicatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218E6ABA23A8E389009E1DE1 /* NetworkCommunicatorTest.swift */; };
+		218E6ABD23A8E3E4009E1DE1 /* FakeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218E6ABC23A8E3E4009E1DE1 /* FakeProvider.swift */; };
+		218E6ABF23A8ED4B009E1DE1 /* ProfileViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218E6ABE23A8ED4B009E1DE1 /* ProfileViewControllerTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +56,7 @@
 		218E6A6C23A8BBB9009E1DE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		218E6A6E23A8BBB9009E1DE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		218E6A7323A8BBBA009E1DE1 /* ProfileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProfileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		218E6A7723A8BBBA009E1DE1 /* ProfileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTests.swift; sourceTree = "<group>"; };
+		218E6A7723A8BBBA009E1DE1 /* ProfilePresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresenterTest.swift; sourceTree = "<group>"; };
 		218E6A7923A8BBBA009E1DE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		218E6A8323A8BBFB009E1DE1 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
 		218E6A8723A8BD81009E1DE1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -72,6 +76,10 @@
 		218E6AB123A8CBA0009E1DE1 /* UIScrollView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+extension.swift"; sourceTree = "<group>"; };
 		218E6AB323A8CD43009E1DE1 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		218E6AB623A8D838009E1DE1 /* DataPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPickerView.swift; sourceTree = "<group>"; };
+		218E6AB823A8E346009E1DE1 /* CustomAlertTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertTest.swift; sourceTree = "<group>"; };
+		218E6ABA23A8E389009E1DE1 /* NetworkCommunicatorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCommunicatorTest.swift; sourceTree = "<group>"; };
+		218E6ABC23A8E3E4009E1DE1 /* FakeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeProvider.swift; sourceTree = "<group>"; };
+		218E6ABE23A8ED4B009E1DE1 /* ProfileViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewControllerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,11 +121,11 @@
 		218E6A5F23A8BBB7009E1DE1 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				218E6A9923A8C609009E1DE1 /* ProfileEditModule */,
 				218E6A9823A8C138009E1DE1 /* AppDelegate */,
 				218E6A8923A8BDBD009E1DE1 /* Networking */,
 				218E6A8523A8BD6D009E1DE1 /* Utils */,
 				218E6A8223A8BBEF009E1DE1 /* Entity */,
+				218E6A9923A8C609009E1DE1 /* ProfileEditModule */,
 				218E6A6623A8BBB7009E1DE1 /* Main.storyboard */,
 				218E6A6923A8BBB9009E1DE1 /* Assets.xcassets */,
 				218E6A6B23A8BBB9009E1DE1 /* LaunchScreen.storyboard */,
@@ -129,8 +137,12 @@
 		218E6A7623A8BBBA009E1DE1 /* ProfileTests */ = {
 			isa = PBXGroup;
 			children = (
-				218E6A7723A8BBBA009E1DE1 /* ProfileTests.swift */,
+				218E6A7723A8BBBA009E1DE1 /* ProfilePresenterTest.swift */,
 				218E6A7923A8BBBA009E1DE1 /* Info.plist */,
+				218E6AB823A8E346009E1DE1 /* CustomAlertTest.swift */,
+				218E6ABA23A8E389009E1DE1 /* NetworkCommunicatorTest.swift */,
+				218E6ABC23A8E3E4009E1DE1 /* FakeProvider.swift */,
+				218E6ABE23A8ED4B009E1DE1 /* ProfileViewControllerTest.swift */,
 			);
 			path = ProfileTests;
 			sourceTree = "<group>";
@@ -398,7 +410,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				218E6A7823A8BBBA009E1DE1 /* ProfileTests.swift in Sources */,
+				218E6ABB23A8E389009E1DE1 /* NetworkCommunicatorTest.swift in Sources */,
+				218E6ABF23A8ED4B009E1DE1 /* ProfileViewControllerTest.swift in Sources */,
+				218E6A7823A8BBBA009E1DE1 /* ProfilePresenterTest.swift in Sources */,
+				218E6AB923A8E346009E1DE1 /* CustomAlertTest.swift in Sources */,
+				218E6ABD23A8E3E4009E1DE1 /* FakeProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
