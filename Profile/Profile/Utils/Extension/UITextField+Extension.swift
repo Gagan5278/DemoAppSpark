@@ -13,7 +13,6 @@ extension UITextField {
     struct Attributes {
         static let underlineColor = UIColor(red: 230.0/255.0, green: 230.0/255.0, blue: 230.0/255.0, alpha: 1.0).cgColor
         static let lineWidth = CGFloat(1.0)
-        static let rightViewDimension = CGFloat(20.0)
     }
     
     func drawUnderline(withColor color: CGColor, width: CGFloat) {

@@ -14,15 +14,6 @@ struct ProfileModel: Codable {
     let religion: [Religion]
     let figure: [Figure]
     let marital_status: [MaritalStatus]
-    
-    private enum keys: String, CodingKey {
-        case gender
-        case ethnicity
-        case religion
-        case figure
-        case marital_status
-    }
-    
 }
 
 struct Gender: Codable {
